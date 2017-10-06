@@ -1,0 +1,51 @@
+1,Alabama,AL,Ala.,3,South,6,East South Central,11
+2,Alaska,AK,Alaska,4,West,9,Pacific,9
+3,Arizona,AZ,Ariz.,4,West,8,Mountain,9
+4,Arkansas,AR,Ark.,3,South,7,West South Central,8
+5,California,CA,Calif.,4,West,9,Pacific,9
+6,Colorado,CO,Colo.,4,West,8,Mountain,10
+7,Connecticut,CT,Conn.,1,Northeast,1,New England,2
+8,Delaware,DE,Del.,3,South,5,South Atlantic,3
+9,Florida,FL,Fla.,3,South,5,South Atlantic,11
+10,Georgia,GA,Ga.,3,South,5,South Atlantic,11
+11,Hawaii,HI,Hawaii,4,West,9,Pacific,9
+12,Idaho,ID,Idaho,4,West,8,Mountain,9
+13,Illinois,IL,Ill.,2,Midwest,3,East North Central,7
+14,Indiana,IN,Ind.,2,Midwest,3,East North Central,7
+15,Iowa,IA,Iowa,2,Midwest,4,West North Central,8
+16,Kansas,KS,Kan.,2,Midwest,4,West North Central,10
+17,Kentucky,KY,Ky.,3,South,6,East South Central,6
+18,Louisiana,LA,La.,3,South,7,West South Central,5
+19,Maine,ME,Maine,1,Northeast,1,New England,1
+20,Maryland,MD,Md.,3,South,5,South Atlantic,4
+21,Massachusetts,MA,Mass.,1,Northeast,1,New England,1
+22,Michigan,MI,Mich.,2,Midwest,3,East North Central,6
+23,Minnesota,MN,Minn.,2,Midwest,4,West North Central,8
+24,Mississippi,MS,Miss.,3,South,6,East South Central,5
+25,Missouri,MO,Mo.,2,Midwest,4,West North Central,8
+26,Montana,MT,Mont.,4,West,8,Mountain,9
+27,Nebraska,NE,Neb.,2,Midwest,4,West North Central,8
+28,Nevada,NV,Nev.,4,West,8,Mountain,9
+29,New Hampshire,NH,N.H.,1,Northeast,1,New England,1
+30,New Jersey,NJ,N.J.,1,Northeast,2,Mid-Atlantic,3
+31,New Mexico,NM,N.M.,4,West,8,Mountain,10
+32,New York,NY,N.Y.,1,Northeast,2,Mid-Atlantic,2
+33,North Carolina,NC,N.C.,3,South,5,South Atlantic,4
+34,North Dakota,ND,N.D.,2,Midwest,4,West North Central,8
+35,Ohio,OH,Ohio,2,Midwest,3,East North Central,6
+36,Oklahoma,OK,Okla.,3,South,7,West South Central,10
+37,Oregon,OR,Ore.,4,West,9,Pacific,9
+38,Pennsylvania,PA,Pa.,1,Northeast,2,Mid-Atlantic,3
+39,Rhode Island,RI,R.I.,1,Northeast,1,New England,1
+40,South Carolina,SC,S.C.,3,South,5,South Atlantic,4
+41,South Dakota,SD,S.D.,2,Midwest,4,West North Central,8
+42,Tennessee,TN,Tenn.,3,South,6,East South Central,6
+43,Texas,TX,Texas,3,South,7,West South Central,5
+44,Utah,UT,Utah,4,West,8,Mountain,10
+45,Vermont,VT,Vt.,1,Northeast,1,New England,2
+46,Virginia,VA,Va.,3,South,5,South Atlantic,4
+47,Washington,WA,Wash.,4,West,9,Pacific,9
+48,West Virginia,WV,W.Va.,3,South,5,South Atlantic,4
+49,Wisconsin,WI,Wis.,2,Midwest,3,East North Central,7
+50,Wyoming,WY,Wyo.,4,West,8,Mountain,10
+51,Washington DC,DC,DC,3,South,5,South Atlantic,12
