@@ -141,5 +141,13 @@ hardship_dpd int,
 hardship_loan_status varchar(30),	
 orig_projected_additional_accrued_interest decimal,	
 hardship_payoff_balance_amount decimal,	
-hardship_last_payment_amount decimal
+hardship_last_payment_amount decimal,
+disbursement_method varchar(10),
+debt_settlement_flag char(1),
+debt_settlement_flag_date date,
+settlement_status varchar(7),
+settlement_date date,
+settlement_amount decimal,
+settlement_percentage decimal,
+settlement_term varchar(7)
 ) engine=columnstore;
