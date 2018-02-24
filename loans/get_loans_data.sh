@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # get latest loan data filenames from https://www.lendingclub.com/info/download-data.action
-for i in LoanStats3a.csv.zip LoanStats3b.csv.zip LoanStats3c.csv.zip LoanStats3d.csv.zip LoanStats_2016Q1.csv.zip LoanStats_2016Q2.csv.zip LoanStats_2016Q3.csv.zip LoanStats_2016Q4.csv.zip LoanStats_2017Q1.csv.zip LoanStats_2017Q2.csv.zip; do
+for i in LoanStats3a.csv.zip LoanStats3b.csv.zip LoanStats3c.csv.zip LoanStats3d.csv.zip LoanStats_2016Q1.csv.zip LoanStats_2016Q2.csv.zip LoanStats_2016Q3.csv.zip LoanStats_2016Q4.csv.zip LoanStats_2017Q1.csv.zip LoanStats_2017Q2.csv.zip LoanStats_2017Q3.csv.zip LoanStats_2017Q4.csv.zip; do
   wget https://resources.lendingclub.com/$i
   unzip $i
   rm $i
