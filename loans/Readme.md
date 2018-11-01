@@ -1,4 +1,4 @@
-# Loans Data Sample 
+# Loans Data Sample
 This utilizes the public data set made available from the company [LendingClub](https://www.lendingclub.com/info/download-data.action). The data set demonstrates cross engine joins and some more complex queries including window functions.
 
 ## Retrieve Data
@@ -12,9 +12,9 @@ After completion a single LoanStats.csv.gz file contains the combined data set g
 ## Creating and Loading Database
 The following script will create (and drop if it already exists) the *loans* database:
 ```sh
-$ ../create_loans_db.sh
+$ ./create_loans_db.sh
 ```
-The script assumes a root install and so utilizes sudo to run the cpimport command. 
+The script assumes a root install and so utilizes sudo to run the cpimport command.
 
 The following script is a useful helper for setting up cross engine join for a default test install with no root password for the localhost root account:
 ```sh

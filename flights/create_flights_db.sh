@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 MCS_DIR=/usr/local/mariadb/columnstore
 SCHEMA_DIR=$(readlink -f ./schema)
 
