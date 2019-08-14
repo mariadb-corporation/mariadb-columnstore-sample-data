@@ -18,7 +18,7 @@ Archive:  data.zip
 
 ## Creating and Loading Database
 The following script will create (and drop if it already exists) the *flights* database:
-```sh
+```
 $ ./create_flights_db.sh
 ```
 This includes the following 3 tables:
@@ -30,7 +30,7 @@ This includes the following 3 tables:
 The airlines and airports table will also be populated from the airlines.csv and airports.csv files in the schema directory.
 
 The flights table is populated seperately using a seperate script which will load each CSV file from the data directory into the flights table:
-```sh
+```
 $ ./load_flight_data.sh
 ```
 
@@ -46,6 +46,6 @@ The following sample queries are provided in the queries directory which assume 
 5. **bayarea_nov_2018_delays.sql** : provides a report of the average and maximum delay by day and hour for bay area airports in November 2018.
 
 The queries can be run in your favorite graphical tool (the queries are designed to work well with [sqlpad](https://rickbergfalk.github.io/sqlpad/) but can also be run on the command line, for example:
-```sh
+```
 $ mcsmysql -vvv flights < queries/2018_airline_summary.sql
 ```
