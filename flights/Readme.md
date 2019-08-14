@@ -41,7 +41,7 @@ The following sample queries are provided in the queries directory which assume 
 
 1. **2018_airline_summary.sql** : provides a report of flight count, market share percentage, cancelled flights percentage, and diverted flights percentage by airline for 2018.
 2. **airline_delay_types_by_year.sql** : provides a report of the delay types by airline by year.
-3. **ca_2018_delays.sql** : provides a report of the volume and average arrival delay for california based airports by airline in 2018.
+3. **ca_2018_delays.sql** : provides a report of the volume and average arrival delay for California based airports by airline in 2018.
 4. **bayarea_2018_delays.sql** : provides a report of the average and maximum delay by month and hour in the day for bay area airports in 2018.
 5. **bayarea_nov_2018_delays.sql** : provides a report of the average and maximum delay by day and hour for bay area airports in November 2018.
 
