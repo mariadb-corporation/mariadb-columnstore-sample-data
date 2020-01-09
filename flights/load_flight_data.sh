@@ -1,6 +1,15 @@
 #!/bin/bash
 # check for argument, if so use as wildcard for file load match, otherwise load everything
-MCS_DIR=/usr/local/mariadb/columnstore
+
+FILE=/usr/local/mariadb/columnstore/bin/cpimport
+
+if test -f "$FILE"
+then
+    CPIMPORT=$FILE
+else
+    CPIMPORT=/usr/bin/cpimport
+fi
+
 DATA_DIR=$(readlink -f ./data)
 
 filematch="*"
@@ -14,5 +23,5 @@ fi
 # the advantage of this being runnable as a regular user with a root installation.
 for f in $DATA_DIR/$filematch.csv; do
   echo $f
-  $MCS_DIR/bin/cpimport -m2 -s ',' -E '"' flights flights -l $f
+  $CPIMPORT -m2 -s ',' -E '"' flights flights -l $f
 done
