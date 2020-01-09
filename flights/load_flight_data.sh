@@ -1,13 +1,15 @@
 #!/bin/bash
 # check for argument, if so use as wildcard for file load match, otherwise load everything
 
-FILE=/usr/local/mariadb/columnstore/bin/cpimport
+FOLDER=/usr/local/mariadb/columnstore
 
-if test -f "$FILE"
+if test -f "$FOLDER"
 then
-    CPIMPORT=$FILE
+    CPIMPORT=$FOLDER/bin/cpimport
+    MARIADB=$FOLDER/mysql/bin/mysql
 else
     CPIMPORT=/usr/bin/cpimport
+    MARIADB=/usr/bin/mysql
 fi
 
 DATA_DIR=$(readlink -f ./data)
