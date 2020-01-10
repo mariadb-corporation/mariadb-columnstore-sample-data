@@ -1,12 +1,12 @@
 #!/bin/bash
 # check for argument, if so use as wildcard for file load match, otherwise load everything
 
-FOLDER=/usr/local/mariadb/columnstore
+LEGACY=/usr/local/mariadb/columnstore
 
-if test -f "$FOLDER"
+if test -f "$LEGACY"
 then
-    CPIMPORT=$FOLDER/bin/cpimport
-    MARIADB=$FOLDER/mysql/bin/mysql --defaults-file=$FOLDER/mysql/my.cnf
+    CPIMPORT=$LEGACY/bin/cpimport
+    MARIADB=$LEGACY/mysql/bin/mysql --defaults-file=$LEGACY/mysql/my.cnf
 else
     CPIMPORT=/usr/bin/cpimport
     MARIADB=/usr/bin/mysql
