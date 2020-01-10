@@ -6,7 +6,7 @@ FOLDER=/usr/local/mariadb/columnstore
 if test -f "$FOLDER"
 then
     CPIMPORT=$FOLDER/bin/cpimport
-    MARIADB=$FOLDER/mysql/bin/mysql
+    MARIADB=$FOLDER/mysql/bin/mysql --defaults-file=$FOLDER/mysql/my.cnf
 else
     CPIMPORT=/usr/bin/cpimport
     MARIADB=/usr/bin/mysql
