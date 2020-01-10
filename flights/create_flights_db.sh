@@ -13,7 +13,7 @@ fi
 SCHEMA_DIR=$(readlink -f ./schema)
 
 # create flights database (dropping if exists) with 3 columnstore tables: flights, airports, airlines
-$MARIADB -u root -vvv < $SCHEMA_DIR/schema.sql
+$MARIADB -vvv < $SCHEMA_DIR/schema.sql
 
 # load data into dimension tables airports and airlines.
 $CPIMPORT -m 2 -s ',' -E '"' flights airports -l $SCHEMA_DIR/airports.csv
