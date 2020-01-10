@@ -45,7 +45,7 @@ The following sample queries are provided in the queries directory which assume 
 4. **bayarea_2018_delays.sql** : provides a report of the average and maximum delay by month and hour in the day for bay area airports in 2018.
 5. **bayarea_nov_2018_delays.sql** : provides a report of the average and maximum delay by day and hour for bay area airports in November 2018.
 
-The queries can be run in your favorite graphical tool (the queries are designed to work well with [sqlpad](https://rickbergfalk.github.io/sqlpad/) but can also be run on the command line, for example:
+The queries can be run in your favorite graphical tool but can also be run on the command line, for example:
 ```
-$ mcsmysql -vvv flights < queries/2018_airline_summary.sql
+$ mysql -vvv flights < queries/2018_airline_summary.sql
 ```
