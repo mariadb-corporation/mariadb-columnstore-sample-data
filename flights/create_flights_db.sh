@@ -4,7 +4,7 @@ LEGACY=/usr/local/mariadb/columnstore
 if test -f "$LEGACY"
 then
     CPIMPORT=$LEGACY/bin/cpimport
-    MARIADB=$FOLLEGACYDER/mysql/bin/mysql --defaults-file=$LEGACY/mysql/my.cnf
+    MARIADB=$LEGACY/mysql/bin/mysql --defaults-file=$LEGACY/mysql/my.cnf
 else
     CPIMPORT=/usr/bin/cpimport
     MARIADB=/usr/bin/mysql
