@@ -15,8 +15,8 @@ airport varchar(80),
 city varchar(30),
 state varchar(2),
 country varchar(30),
-latitude decimal(18,11),
-longitude decimal(18,11)
+latitude decimal(11,4),
+longitude decimal(11,4)
 ) engine=columnstore default character set=utf8;
 
 create table flights (
