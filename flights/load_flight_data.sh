@@ -23,5 +23,5 @@ fi
 # the advantage of this being runnable as a regular user with a root installation.
 for f in $DATA_DIR/$filematch.csv; do
   echo $f
-  $CPIMPORT -m2 -s ',' -E '"' bts flights -l $f
+  $CPIMPORT -m 1 -s ',' -E '"' bts flights -l $f
 done
