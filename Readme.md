@@ -23,9 +23,9 @@ $ ./create_flights_db.sh
 ```
 This includes the following 3 tables:
 
-- **airlines** : Dimension table for airlines
-- **airports** : Dimension table for airports
-- **flights** : fact table for airline departure data
+*   **airlines** : Dimension table for airlines
+*   **airports** : Dimension table for airports
+*   **flights** : fact table for airline departure data
 
 The airlines and airports table will also be populated from the airlines.csv and airports.csv files in the schema directory.
 
@@ -39,11 +39,11 @@ Both scripts assume a root install of ColumnStore exists on the host but can be 
 ## Sample Queries
 The following sample queries are provided in the queries directory which assume the default data set of all values from 2018 exist:
 
-1. **2018_airline_summary.sql** : provides a report of flight count, market share percentage, cancelled flights percentage, and diverted flights percentage by airline for 2018.
-2. **airline_delay_types_by_year.sql** : provides a report of the delay types by airline by year.
-3. **ca_2018_delays.sql** : provides a report of the volume and average arrival delay for California based airports by airline in 2018.
-4. **bayarea_2018_delays.sql** : provides a report of the average and maximum delay by month and hour in the day for bay area airports in 2018.
-5. **bayarea_nov_2018_delays.sql** : provides a report of the average and maximum delay by day and hour for bay area airports in November 2018.
+1.  **2018_airline_summary.sql** : provides a report of flight count, market share percentage, cancelled flights percentage, and diverted flights percentage by airline for 2018.
+2.  **airline_delay_types_by_year.sql** : provides a report of the delay types by airline by year.
+3.  **ca_2018_delays.sql** : provides a report of the volume and average arrival delay for California based airports by airline in 2018.
+4.  **bayarea_2018_delays.sql** : provides a report of the average and maximum delay by month and hour in the day for bay area airports in 2018.
+5.  **bayarea_nov_2018_delays.sql** : provides a report of the average and maximum delay by day and hour for bay area airports in November 2018.
 
 The queries can be run in your favorite graphical tool but can also be run on the command line, for example:
 ```
