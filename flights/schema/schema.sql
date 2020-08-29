@@ -1,22 +1,22 @@
-drop database if exists flights;
+drop database if exists bts;
 
-create database flights;
+create database bts;
 
-use flights;
+use bts;
 
 create table airlines (
-iata_code char(2),
+iata_code varchar(2),
 airline varchar(30)
 ) engine=columnstore default character set=utf8;
 
 create table airports (
-iata_code char(3),
+iata_code varchar(3),
 airport varchar(80),
 city varchar(30),
-state char(2),
+state varchar(2),
 country varchar(30),
-latitude float,
-longitude float
+latitude decimal(18,11),
+longitude decimal(18,11)
 ) engine=columnstore default character set=utf8;
 
 create table flights (
@@ -25,20 +25,20 @@ month tinyint,
 day tinyint,
 day_of_week tinyint,
 fl_date date,
-carrier char(2),
-tail_num char(6),
+carrier varchar(2),
+tail_num varchar(6),
 fl_num smallint,
 origin varchar(5),
 dest varchar(5),
-crs_dep_time char(4),
-dep_time char(4),
+crs_dep_time varchar(4),
+dep_time varchar(4),
 dep_delay smallint,
 taxi_out smallint,
-wheels_off char(4),
-wheels_on char(4),
+wheels_off varchar(4),
+wheels_on varchar(4),
 taxi_in smallint,
-crs_arr_time char(4),
-arr_time char(4),
+crs_arr_time varchar(4),
+arr_time varchar(4),
 arr_delay smallint,
 cancelled smallint,
 cancellation_code smallint,
@@ -53,4 +53,3 @@ nas_delay smallint,
 security_delay smallint,
 late_aircraft_delay smallint
 ) engine=columnstore default character set=utf8;
-

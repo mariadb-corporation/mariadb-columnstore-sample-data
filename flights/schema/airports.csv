@@ -20,6 +20,7 @@ APN,Alpena County Regional Airport,Alpena,MI,USA,45.0781,-83.5603
 ASE,Aspen-Pitkin County Airport,Aspen,CO,USA,39.2232,-106.869
 ATL,Hartsfield-Jackson Atlanta International Airport,Atlanta,GA,USA,33.6404,-84.4269
 ATW,Appleton International Airport,Appleton,WI,USA,44.2574,-88.5195
+ATY,Watertown Regional Airport,Watertown,SD,USA,44.913889,-97.154722
 AUS,Austin-Bergstrom International Airport,Austin,TX,USA,30.1945,-97.6699
 AVL,Asheville Regional Airport,Asheville,NC,USA,35.4362,-82.5418
 AVP,Wilkes-Barre/Scranton International Airport,Wilkes-Barre/Scranton,PA,USA,41.3382,-75.7243
@@ -27,6 +28,7 @@ AZO,Kalamazoo/Battle Creek International Airport,Kalamazoo,MI,USA,42.2349,-85.55
 BDL,Bradley International Airport,Windsor Locks,CT,USA,41.9389,-72.6832
 BET,Bethel Airport,Bethel,AK,USA,60.7798,-161.838
 BFL,Meadows Field,Bakersfield,CA,USA,35.4336,-119.057
+BFM,Mobile Downtown Airport,Mobile,AL,USA,30.626667,-88.068056
 BGM,Greater Binghamton Airport,Binghamton,NY,USA,42.2085,-75.9796
 BGR,Bangor International Airport,Bangor,ME,USA,44.8074,-68.8281
 BHM,Birmingham-Shuttlesworth International Airport,Birmingham,AL,USA,33.5629,-86.7535
@@ -232,6 +234,7 @@ ORH,Worcester Regional Airport,Worcester,MA,USA,42.2673,-71.8757
 OTH,Southwest Oregon Regional Airport (North Bend Municipal),North Bend,OR,USA,43.4171,-124.246
 OTZ,Ralph Wien Memorial Airport,Kotzebue,AK,USA,66.8847,-162.599
 PAH,Barkley Regional Airport,Paducah,KY,USA,37.0608,-88.7738
+PAE,Paine Field,Everett,WA,USA,47.906111,-122.281389
 PBG,Plattsburgh International Airport,Plattsburgh,NY,USA,,
 PBI,Palm Beach International Airport,West Palm Beach,FL,USA,26.6832,-80.0956
 PDX,Portland International Airport,Portland,OR,USA,45.5887,-122.598
@@ -241,6 +244,7 @@ PHX,Phoenix Sky Harbor International Airport,Phoenix,AZ,USA,33.4342,-112.008
 PIA,General Wayne A. Downing Peoria International Airport,Peoria,IL,USA,40.6642,-89.6933
 PIB,Hattiesburg-Laurel Regional Airport,Hattiesburg-Laurel,MS,USA,31.4671,-89.3371
 PIH,Pocatello Regional Airport,Pocatello,ID,USA,42.9113,-112.596
+PIR,Pierre Regional Airport,Pierre,SD,USA,44.382778,-100.286111
 PIT,Pittsburgh International Airport,Pittsburgh,PA,USA,40.4915,-80.2329
 PLN,Pellston Regional Airport of Emmet County,Pellston,MI,USA,45.5709,-84.7967
 PNS,Pensacola International Airport (Pensacola Gulf Coast Regional Airport),Pensacola,FL,USA,30.4733,-87.1874
@@ -383,3 +387,4 @@ STS,Charles M. Schulz Sonoma County Airport,Santa Rosa,US,USA,-100,38.509
 SWO,Stillwater Regional Airport,Stillwater,US,USA,-97.0857,36.1612
 UIN,Quincy Regional Baldwin Field,Quincy,US,USA,-91.1946,39.9427
 USA,Concord-Padgett Regional Airport,Concord,US,USA,-80.7091,35.3878
+XWA,Williston Basin International Airport,Williston,ND,USA,48.259722,-103.750556
