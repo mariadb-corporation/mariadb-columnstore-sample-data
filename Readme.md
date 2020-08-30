@@ -47,5 +47,5 @@ The following sample queries are provided in the queries directory which assume 
 
 The queries can be run in your favorite graphical tool but can also be run on the command line, for example:
 ```
-$ mysql -vvv flights < queries/2018_airline_summary.sql
+$ mariadb flights < queries/2018_airline_summary.sql
 ```
