@@ -5,7 +5,7 @@
 # for the specific columns listed in the SQL and utilized by the sample schema.
 
 mkdir -p data
-for y in {2018..2019}; do
+for y in {2018..2020}; do
   for m in {1..12}; do
     yyyymm="$y-$(printf %02d $m)"
     echo "Downloading data for $yyyymm"
@@ -19,3 +19,4 @@ for y in {2018..2019}; do
     rm -f $yyyymm.csv
   done
 done
+find data/ -name '*.csv' -size 0 -print0 | xargs -0 rm 2>/dev/null
