@@ -8,7 +8,7 @@ This simple data set uses the [on time performance](https://www.transtats.bts.go
 
 ## Prerequisite
 
-A MariaDB server with ColumnStore enabled is required. For a quick test environment see our [docker project](https://hub.docker.com/r/mariadb/columnstore).  
+A MariaDB server with ColumnStore enabled is required. For a quick test environment, try our [docker project](https://hub.docker.com/r/mariadb/columnstore).  
 
 ## Quick Start
 ### Clone The Repo
