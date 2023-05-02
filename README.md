@@ -6,6 +6,10 @@ This simple data set uses the [on time performance](https://www.transtats.bts.go
 *   **airports**: Dimension table for airports (400 records)
 *   **flights**: Fact table for airline departure data (38,083,735 records)
 
+## Prerequisite
+
+A MariaDB server with ColumnStore enabled is required. For a quick test environment see our [docker project](https://hub.docker.com/r/mariadb/columnstore).  
+
 ## Quick Start
 ### Clone The Repo
 ```
@@ -27,11 +31,11 @@ This script will:
 ## Sample Queries
 The following sample queries are provided in the [queries directory](/queries/):
 
-1.  **1.sql** : Provides a report of flight count, market share percentage, cancelled flights percentage, and diverted flights percentage by airline for 2020.
-2.  **2.sql** : Provides a report of the delay types by airline by year.
-3.  **3.sql** : Provides a report of the volume and average arrival delay for California based airports by airline in 2020.
-4.  **4.sql** : Provides a report of the average and maximum delay by month and hour in the day for bay area airports in 2020.
-5.  **5.sql** : Provides a report of the average and maximum delay by day and hour for bay area airports in November 2020.
+1.   **1.sql** : Provides a report of flight count, market share percentage, cancelled flights percentage, and diverted flights percentage by airline for 2020.
+2.   **2.sql** : Provides a report of the delay types by airline by year.
+3.   **3.sql** : Provides a report of the volume and average arrival delay for California based airports by airline in 2020.
+4.   **4.sql** : Provides a report of the average and maximum delay by month and hour in the day for bay area airports in 2020.
+5.   **5.sql** : Provides a report of the average and maximum delay by day and hour for bay area airports in November 2020.
 ```
 mariadb -vvv columnstore_bts < queries/1.sql
 ```
