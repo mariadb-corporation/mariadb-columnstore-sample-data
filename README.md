@@ -75,6 +75,6 @@ _*Note: InnoDB tables were given indexes and a warm bufferpool._
 |InnoDB                |15GB                 |
 |ColumnStore           |2GB                  |
 
-### Conclusion
+## Conclusion
 
 In terms of performance, both storage engines excel in different areas. InnoDB is optimized for transactional workloads, where data is frequently updated or inserted. It uses a write-ahead logging mechanism to ensure that data is always consistent and recoverable in case of a system failure. In contrast, ColumnStore is optimized for analytical workloads, where data is read-intensive and queries often involve aggregation and filtering operations. ColumnStore can execute these queries much faster due to its columnar design and vectorized processing.
