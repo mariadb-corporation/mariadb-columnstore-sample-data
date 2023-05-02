@@ -81,4 +81,4 @@ In terms of performance, both storage engines excel in different areas. InnoDB i
 
 In contrast, ColumnStore is optimized for analytical workloads, where data is read-intensive and queries often involve aggregation and filtering operations. ColumnStore can execute these queries much faster due to its columnar design and vectorized processing.
 
-ColumnStore has the additional benefit of a high speed bulk loader and a smaller disk footprint due to lack of indexes and the high compression ratio of the data on disk.
+ColumnStore has the additional benefits of a high speed bulk loader and a smaller disk footprint due to lack of indexes and the high compression ratio of the data on disk.
