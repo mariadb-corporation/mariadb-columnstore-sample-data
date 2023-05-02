@@ -51,7 +51,7 @@ if [[ $COMPARE == [yY] ]]; then
         echo -e "\nCreating 'innodb_bts' schema..." "${GREEN}done${NC}\n"
         for CSV_FILE in "${NAME1}" "${NAME2}" "${NAME3}"; do
             echo -e "\nLoading '${CSV_FILE}.csv' with LDI ..."
-            if ! $MARIADB --database="innodb_bts" --init-command="SET sql_mode=''" -vv -e \
+            if ! $MARIADB --database="innodb_bts" --init-command="SET sql_mode=''" -vvv -e \
                 "LOAD DATA INFILE '${SCHEMA_DIR}/${CSV_FILE}.csv' 
                  INTO TABLE ${CSV_FILE}
                  FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '\"'
