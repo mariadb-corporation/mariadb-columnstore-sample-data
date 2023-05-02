@@ -13,6 +13,9 @@ A MariaDB server with ColumnStore enabled is required. For a quick test environm
 ## Quick Start
 ### Clone The Repo
 ```
+cd /tmp
+```
+```
 git clone https://github.com/mariadb-corporation/mariadb-columnstore-samples.git
 ```
 ```
