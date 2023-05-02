@@ -10,6 +10,8 @@ This simple data set uses the [on time performance](https://www.transtats.bts.go
 ### Clone The Repo
 ```
 git clone https://github.com/mariadb-corporation/mariadb-columnstore-samples.git
+```
+```
 cd mariadb-columnstore-samples
 ```
 ### Run The Project
