@@ -2,7 +2,7 @@
 
 set -euo pipefail # Enable strict mode
 
-MARIADB=$(which mysql)
+MARIADB=$(which mariadb)
 CPIMPORT=$(which cpimport)
 SCHEMA_DIR=$(readlink -f ./schema)
 NAME1='airports'
