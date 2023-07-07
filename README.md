@@ -16,10 +16,10 @@ A MariaDB server with ColumnStore enabled is required. For a quick test environm
 cd /tmp
 ```
 ```
-git clone https://github.com/mariadb-corporation/mariadb-columnstore-samples.git
+git clone https://github.com/mariadb-corporation/mariadb-columnstore-sample-data.git
 ```
 ```
-cd mariadb-columnstore-samples
+cd mariadb-columnstore-sample-data
 ```
 ### Run The Project
 ```
@@ -68,7 +68,7 @@ mariadb -vvv innodb_bts < queries/1.sql
 
 ### Query Times
 
-|Query                 |InnoDB*               |ColumnStore          |
+|Query                 |InnoDB*              |ColumnStore          |
 |:--------------------:|--------------------:|--------------------:|
 |[1](/queries/1.sql)   |27.226 sec           |0.457 sec            |
 |[2](/queries/2.sql)   |1 min 24.368 sec     |1.523 sec            |
